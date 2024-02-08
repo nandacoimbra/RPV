@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+    
+}
+body{
+    margin: 0 auto;
+    width: 850px;
+    min-width: 500px;
+    max-width: 900px;
+    border: 1px solid #011638;
+    background-color: #ffff;
+    
+}
+
+h1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h2{
+    margin-top: 5px;
+}
+
+
+p{
+    text-align: justify;
+}
+
+.curso, .empresa, .atividade{
+    margin:0;
+    font-size: 1rem;
+}
+
+.local, .funcao{
+    margin: 5px auto 15px;
+}
+
+
+.funcao{
+    font-weight: 700;
+    margin: 0;
+    
+}
+
+.descricao, .graduanda{
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.corpo{
+    padding: 10px;
+    border: 1px solid #011638;
+}
+
+.cabecalho{
+    padding: 10px;
+    background-color: #011638;
+    color: #ffff;
+}
+
+.icone{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;;
+}
+
+img{
+    width: 50px;
+    height: auto;
+    
+}

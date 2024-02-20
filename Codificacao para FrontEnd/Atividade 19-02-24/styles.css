@@ -4,8 +4,7 @@
     --cor1: #2A2B2A;
     --cor2: #5E4955;
     --cor3: #996888;
-    --cor4: #C99DA3;
-    --border-color: 
+    --cor4: #C99DA3; 
 }
 
 
@@ -64,7 +63,9 @@ h1 {
     width: 100px;
     margin: 10px;
     border-radius: 5px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .little-box {
@@ -73,21 +74,21 @@ h1 {
     border: 1px solid black;
     margin: 10px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* main > div > div, header > div{
-    margin-bottom: 10px;
-} */
 
-.box1{
+.box1, .box5, .box8{
     background-color: var(--cor1);
 }
 
-.box2{
+.box2, .box6, .box9{
     background-color: var(--cor2);
 }
 
-.box3{
+.box3, .box7,.box10{
     background-color: var(--cor3);
 }
 
@@ -95,26 +96,9 @@ h1 {
     background-color: var(--cor4);
 }
 
-.box5{
-    background-color: var(--cor1);
-}
 
-.box6{
-    background-color: var(--cor2);
-}
+p{
+    font-size: 15px;
+    color: var(--container);
 
-.box7{
-    background-color: var(--cor3);
-}
-
-.box8{
-    background-color: var(--cor1);
-}
-
-.box9{
-    background-color: var(--cor2);
-}
-
-.box10{
-    background-color: var(--cor3);
 }

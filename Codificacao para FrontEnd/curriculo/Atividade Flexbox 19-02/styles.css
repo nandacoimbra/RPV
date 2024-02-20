@@ -1,0 +1,120 @@
+:root{
+    --fundo:#CDCDCD;
+    --container: #F9EBE0;
+    --cor1: #2A2B2A;
+    --cor2: #5E4955;
+    --cor3: #996888;
+    --cor4: #C99DA3;
+    --border-color: 
+}
+
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--fundo);
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body>div {
+    margin: 10px;
+}
+
+.container1 {
+    background-color: var(--container);
+    border: 3px solid black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container2 {
+    background-color: var(--container);
+    border: 3px solid black;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.esquerda {
+    justify-content: flex-start;
+
+}
+
+.direita {
+    justify-content: flex-end;
+}
+
+h1 {
+    margin: 10px;
+}
+
+
+.box {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.little-box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* main > div > div, header > div{
+    margin-bottom: 10px;
+} */
+
+.box1{
+    background-color: var(--cor1);
+}
+
+.box2{
+    background-color: var(--cor2);
+}
+
+.box3{
+    background-color: var(--cor3);
+}
+
+.box4{
+    background-color: var(--cor4);
+}
+
+.box5{
+    background-color: var(--cor1);
+}
+
+.box6{
+    background-color: var(--cor2);
+}
+
+.box7{
+    background-color: var(--cor3);
+}
+
+.box8{
+    background-color: var(--cor1);
+}
+
+.box9{
+    background-color: var(--cor2);
+}
+
+.box10{
+    background-color: var(--cor3);
+}

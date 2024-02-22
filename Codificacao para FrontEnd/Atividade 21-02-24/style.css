@@ -1,0 +1,223 @@
+:root {
+    --header-footer: #05559F;
+    --cor-clara: azure;
+    --cinza-escuro: #1f1f1f;
+    --azul-escuro:#02006c;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+body {
+    margin: 20px;
+    min-width: 1000px;
+    background-color: var(--cor-clara);
+}
+
+.cabecalho {
+    height: 100px;
+    border: 1px solid var(--cor-clara);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: var(--header-footer);
+}
+
+nav {
+    display: flex;
+
+}
+
+.senai-img img {
+    width: 200px;
+    height: auto;
+    border: var(--header-footer);
+
+}
+
+.senai-img>figure>figcaption {
+    color: var(--cor-clara);
+    font-style: italic;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+}
+
+
+.nav-buttons {
+    border: 2px solid var(--cor-clara);
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--header-footer);
+
+}
+
+.tb {
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--cor-clara);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--header-footer);
+    text-align: center;
+}
+
+
+.text {
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    color: var(--cinza-escuro);
+    line-height: 1.5;
+
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.images img {
+    border-radius: 10px;
+}
+
+.img2 {
+    width: 447px;
+    height: auto;
+}
+
+.images figcaption {
+    font-size: 13px;
+    text-align: center;
+}
+
+.rodape {
+    border: 1px solid var(--cor-clara);
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: var(--header-footer);
+
+}
+
+span {
+    font-weight: bold;
+}
+
+fieldset {
+    border-color: var(--cor-clara);
+    color: var(--cor-clara);
+}
+
+
+.fone-address fieldset {
+    width: 300px;
+    height: 100px;
+}
+
+.address,
+.fone {
+    margin: 10px 0;
+}
+
+legend {
+    text-align: center;
+    font-weight: 600;
+    color: var(--cor-clara);
+    
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    ;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: var(--cor-clara);
+    
+}
+
+
+.newslettler {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.img3 {
+    width: 40px;
+    height: auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+/*Efeitos ao passar por cima de imagens e botões*/
+
+.nav-buttons:hover {
+    background-color: var(--azul-escuro);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: var(--cor-clara);
+    transition: border-color 0.1s ease-in-out;
+}
+.img3:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    transition: box-shadow 0.3s ease-in-out;
+    /* Transição suave */
+}
+
+/* Para reduzir a velocidade com que a tela desce ao clicar nos botoes de navegacao */
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}

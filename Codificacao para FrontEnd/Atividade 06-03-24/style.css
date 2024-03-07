@@ -6,7 +6,7 @@ html {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 1.3fr 1.3fr 1.3fr 1.3fr;
+    grid-template-rows: 0.5fr 0.3fr 1.3fr 1.3fr 1.3fr 1.3fr;
     gap: 10px 10px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -31,7 +31,7 @@ h1 {
     width: 400px;
     height: 40px;
     text-align: center;
-    background-color: #C6D8D3;
+    background-color: #EFFFC8;
     border-radius: 20px;
 }
 

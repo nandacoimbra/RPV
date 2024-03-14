@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+
+  <!-- MENU NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="img-logo"
+          src="https://speakupcataguases.com/wp-content/uploads/2021/06/logo-Speakup-retina.png" alt=""></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about-us">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#metodologia">Metodologia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cursos">Cursos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CARROSSEL -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <!-- imagem 1 do carrossel -->
+      <div class="carousel-item active">
+        <img
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100 img-1" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Aprenda inglês</h5>
+          <p>Aulas ao vivo quando e onde quiser</p>
+        </div>
+        <!-- imagem 2 do carrossel -->
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100 img-2" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Flexibilidade</h5>
+          <p>Faça as lições no conforto de sua casa ou no escritório</p>
+        </div>
+      </div>
+      <!-- imagem 3 do carrossel -->
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="d-block w-100 img-3" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Inglês eficiente</h5>
+          <p>Aulas presenciais em grupo ou individuais com as mais avançadas técnicas de ensino</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- SOBRE NÓS -->
+
+
+  <div class="card mb-3 about-us" id="about-us">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <img src="https://speakupcataguases.com/wp-content/uploads/2021/06/Speakup-imagem-sobre-nos02.jpg"
+          class="img-fluid rounded-start" alt="...">
+      </div>
+        <div class="col-md-6">
+          <div class="card-body">
+          <h5 class="card-title">Sobre nós</h5>
+          <div class="container-fluid about-text">
+            <p class="card-text"><strong>SpeakUp</strong> significa fale alto, fale com segurança, fale sem hesitar. E essas se tornaram
+              as
+              principais metas deste
+              curso que utiliza as mais recentes metodologias, abordagens, técnicas de ensino e tecnologias no auxílio à
+              aprendizagem da língua inglesa. Seguimos a tendência de ensino de língua inglesa chamada Communicative
+              Approach
+              (abordagem comunicativa), que promove o ensino da língua usando situações do cotidiano enfatizando as
+              funções
+              de
+              comunicação da língua, fazendo com que as aulas sejam focadas em conversação.</p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- METODOLOGIA -->
+
+  <div class="card mb-3 about-us" id="metodologia">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <img src="https://speakupcataguases.com/wp-content/uploads/2021/06/Speakup-imagem-plataforma-exclusiva.jpg"
+          class="img-fluid rounded-start" alt="..." >
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <h5 class="card-title">Metodologia</h5>
+          <div class="container-fluid about-text">
+          <p class="card-text w-100">As metodologias ativas no ensino de Língua Inglesa norteiam nossas aulas e fazem com que
+            elas sejam eficientes e ao mesmo tempo leves e divertidas. O foco é na comunicação e as atividades são
+            baseadas em situações do dia a dia; O vocabulário e as expressões que você vai aprender serão realmente úteis
+            para você. No final de cada módulo, os alunos têm uma certificação e ,também, podem optar por fazer um teste
+            de proficiência (TOEIC, para medir o seu desenvolvimento e garantir uma certificação reconhecida
+            internacionalmente).</p>
+            </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- CURSOS -->
+
+  <div class="card-group d-flex gap-5" id="cursos">
+    <div class="card">
+      <img
+        src="https://img.freepik.com/premium-photo/happy-african-american-schoolgirl-holding-books-blue-background-back-school-concept_1429-10183.jpg?w=740"
+        alt="..." class="kids">
+      <div class="card-body">
+        <h5 class="card-title">Crianças</h5>
+        <p class="card-text">Aprendizado natural com o acompanhamento de uma equipe pedagógica especialmente treinada.
+        </p>
+
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="https://img.freepik.com/free-photo/groupo-four-teenage-friends-hanging-out-high-school_662251-1992.jpg?t=st=1710440696~exp=1710444296~hmac=6b91c8c0cf023cc3b7f2a00657e7d2ea443f2efefed83915e2915e093932ecc2&w=740"
+        class="teens" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Adolescentes</h5>
+        <p class="card-text">Aulas dinâmicas que desenvolvem as quatro habilidades linguísticas: falar, ouvir, ler e
+          escrever.</p>
+
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="https://img.freepik.com/free-photo/side-view-woman-working-media-field-with-computer-headphones_23-2148901113.jpg?t=st=1710440752~exp=1710444352~hmac=54d86e04b3ad04c5c2e169529ccd09d628ba3ed99d90e52b9688af009c2eb7bb&w=740"
+        class="adults" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Adultos</h5>
+        <p class="card-text">Impulsione sua carreira profissional e amplie seu conhecimento com cursos para todos os
+          níveis.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- INPUT (GANHE 5 AULAS) -->
+
+  <div class="container-fluid formulario d-flex flex-column ">
+
+    <div class="container-fluid form-2 d-flex flex-column">
+      <h5 class="text-center p-2">Ganhe <span class="free-class">5 aulas</span><br> experimentais</h5>
+
+      <p class="text-center p-2">Quer conhecer um pouco mais sobre nossa metodologia, nossos professores e modalidades
+        de curso? Preencha o formulario abaixo e entraremos em contato para agendar 5 aulas experimentais gratuitas.</p>
+
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Nome completo</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="nome">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">E-mail</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="e-mail">
+
+      </div>
+      <button type="button" class="btn btn-light">Enviar</button>
+    </div>
+
+
+  </div>
+
+  <!-- FOOTER -->
+
+  <div class="card text-center footer " id="contato">
+    <div class="card-header">
+
+    </div>
+    <div class="card-body">
+      <img src="https://speakupcataguases.com/wp-content/uploads/2021/06/logo-Speakup-retina.png" alt="">
+      <p class="card-text text-center">Praça Governador Valadares - Centro, Cataguases - MG <br>
+        contato@speakupcataguases.com <br>
+        (32) 99941-4548</p>
+
+    </div>
+    <div class="card-footer text-body-secondary">
+      © 2024 Todos os direitos reservados.
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>

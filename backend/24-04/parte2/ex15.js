@@ -13,7 +13,11 @@ function distribuiNotas(valor) {
     for (let nota of notas) {
         if (valor >= nota) {
             distribuicaoNotas[nota] = Math.floor(valor / nota);
+            //recebe o resto da divisao do valor pela nota
+            //ex: 188/100 -> resta 88, 88/50 -> resta 33 ... 
             valor %= nota;
+            console.log(`Valor: ${valor}`);
+
         }
     }
 

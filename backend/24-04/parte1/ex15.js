@@ -7,4 +7,7 @@ const prompt = require('prompt-sync')();
 let boleto = prompt("Informe o valor do boleto: ");
 let diasAtraso = prompt("Informe a quantidade de dias de atraso: ");
 
+let taxaTotal = 0.0125*diasAtraso;
+let taxaReais = taxaTotal*boleto;
+
 console.log(`O valor a ser pago com o atraso é de: ${boleto*(1+(0.0125*diasAtraso))} reais.`);

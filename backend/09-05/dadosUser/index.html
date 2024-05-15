@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dados do usuário</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" required>
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" required>
+            </div>
+            <div>
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" required>
+            </div>
+            <div>
+                <label for="sexo">Sexo</label>
+                <select id="sexo">
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="Outro">Outro</option>
+                    <option value="Prefiro nao informar">Prefiro não informar</option>
+                </select>
+               
+            </div>
+            <div>
+                <label for="nascimento">Nascimento</label>
+                <input type="date" id="nascimento" required>
+            </div>
+            <div>
+                <label for="endereco">Endereco</label>
+                <input type="text" id="endereco" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" placeholder="(032) 0 0000-0000" required>
+            </div>
+           
+        </form>
+        
+                    <button type="submit" class="dados">Exibir dados</button>
+        <div class="resultado">
+           
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

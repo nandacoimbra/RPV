@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Combustível</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Combustível</h1>
+
+      <label for="pgasolina">Preço do litro da Gasolina (R$):</label>
+      <input type="number" id="pgasolina" step="0.01" />
+
+      <label for="gasolina">Quantidade de litros de Gasolina:</label>
+      <input type="number" id="gasolina" step="0.01" />
+
+      <label for="palcool">Preço do litro do Álcool (R$):</label>
+      <input type="number" id="palcool" step="0.01" />
+
+      <label for="alcool">Quantidade de litros de Álcool:</label>
+      <input type="number" id="alcool" step="0.01" />
+        
+      <button onclick="calculadoraCombustivel()">Calcular</button>
+      <a href="../menu.html"><button class="menu-btn">Menu</button></a>
+      
+
+      <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

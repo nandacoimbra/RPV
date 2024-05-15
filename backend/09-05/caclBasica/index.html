@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Basica</title>
+</head>
+
+<body>
+    
+    <main>
+        <form action="">
+            <h1>Calculadora Básica</h1>
+            <div class="input-container">
+                <label for="n1">Número 1: </label>
+                <input type="number" name="" id="n1" required>
+            </div>
+            <div class="input-container">
+                <label for="operacao">Selecione a operação: </label>
+                <select name="" id="operacao">
+                    <option value="1">+</option>
+                    <option value="2">-</option>
+                    <option value="3">/</option>
+                    <option value="4">*</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="n2">Número 2: </label>
+                <input type="number" name="" id="n2" required>
+            </div>
+
+            <button type="button" id="btn-calc">Calcular</button>
+
+        </form>
+
+        <div id="resultado"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
